@@ -1,18 +1,25 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "canary",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "next": "^16.0.2-canary.19",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@types/node": "^22",
     "@types/react": "^19",
     "typescript": "^5"
-  }
+  },
+  "name": "next-turbopack-bug",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) template to use when reporting a [bug in the Next.js repository](https://github.com/vercel/next.js/issues) with the `app/` directory.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
